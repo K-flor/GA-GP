@@ -76,7 +76,6 @@ public class Island {
 	
 	public static void main(String[] args) throws IOException {
 		// DIMACS graph instances
-		//String file = "C4000.5.clq";
 		//String file = "C500.9.clq";
 		String file = "C2000.9.clq";
 		byte[][] adj = GraphReader.adjacency(file, 1);
