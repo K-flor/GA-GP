@@ -1,4 +1,4 @@
-neural network for XOR problem
+## neural network for XOR problem
 	
 - two inputs
 - one Hidden layer & 2 nodes
@@ -6,18 +6,12 @@ neural network for XOR problem
 	
 	* weights & bias
 		
-	- Input & Hidden
-		
-				(	| w1 w2 b1 | | x1 | )       | h1 |
-		sigmoid		(	| w3 w4	b2 | | x2 |	) = | h2 |
-				(				    |  1 | )
-		
-		
-	- Hidden & Output
-		
-				(				 | h1 | )
-		sigmoid  	(	| w5 w6 b3 | | h2 | ) =  | o1 |
-				(				 |  1 | )
+		- Input & Hidden        
+		        ![그림1](https://user-images.githubusercontent.com/57889531/139517361-7924e066-18cd-4524-aa40-6503e18ed550.png)    
+		        
+		- Hidden & Output        
+			![그림2](https://user-images.githubusercontent.com/57889531/139517365-14bb89ae-f4c7-4f24-94f2-bceac6fe54e2.png)
+
 		
 	* chromosome
-		[w1 w2 b1 w3 w4 b2 w5 w6 b3]
+		{w1 w2 b1 w3 w4 b2 w5 w6 b3}
