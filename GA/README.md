@@ -10,5 +10,5 @@
          
 * tsp         
     Traveling Salesman Problem 은 그래프의 정점들을 탐색할 때 가장 비용이 적은 경로를 찾는 문제이다.     
-    
+    이를 위한 Parallel GA 중 Island 모델을 참고하여 구현하였다.
           
